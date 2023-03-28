@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Local networks manager
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Simple app that can edit and manage local networks by editing `/etx/hosts` and `/private/etc/apache2/extra/httpd-vhosts.conf`.
+
 
 ## Setup
 
@@ -17,26 +18,10 @@ npm install
 pnpm install
 ```
 
-## Development Server
+## How to run
 
-Start the development server on http://localhost:3000
+Start the development server on http://localhost:3000. This app can run only locally
 
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
