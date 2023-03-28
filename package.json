@@ -1,0 +1,20 @@
+{
+  "name": "local_networks",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.3.0-alpha2",
+    "sass": "^1.60.0"
+  }
+}
